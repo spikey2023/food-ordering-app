@@ -22,12 +22,12 @@ export default function Home() {
         crafting an extraordinary dining experience for burger enthusiasts. 
         Established with a commitment to quality and innovation, 
         FlavorBurst Burgers is not just a restaurant; 
-        it's a celebration of flavors that dance on your taste buds.
+        it is a celebration of flavors that dance on your taste buds.
         </p>
         <p>
         Our journey began with a simple belief – 
         that a burger is more than just a meal; 
-        it's a canvas for creativity. Each burger on our menu is a carefully 
+        it is a canvas for creativity. Each burger on our menu is a carefully 
         curated masterpiece, bringing together the finest ingredients and 
         culinary expertise to deliver a symphony of tastes.
          From the Signature Supreme Burger, an ode to classic indulgence,

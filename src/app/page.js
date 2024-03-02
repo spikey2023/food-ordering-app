@@ -40,6 +40,17 @@ export default function Home() {
         </p>
         </div>
     </section>
+    <section className="text-center my-8">
+    <SectionHeaders 
+      subHeader={"Don't Hesitate"} 
+      mainHeader={"Contact us"} 
+      />
+      <div className="mt-8">
+        <a className="text-4xl underline text-gray-600" href="tel:+123123123">
+          <h1>+12 312 3123</h1>
+        </a>
+      </div>
+      </section>
     </>
   );
 }

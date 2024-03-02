@@ -3,10 +3,17 @@ import Image from "next/image";
 
 export default function Hero(){
     return (
-        <section className="grid grid-cols-2">
+        <section className="hero">
         <div className="py-12">
-            <h1 className="text-4xl font-semibold"> Everything is better with Burger</h1>
-            <p className="my-4 text-gray-500">Burger is the missing piece that makes
+            <h1 className="text-4xl font-semibold"> Everything 
+            <br /> is better 
+            <br /> with a&nbsp; 
+            <span className="text-primary">
+                Burger
+              </span>
+            </h1>
+            <p className="my-4 text-gray-500 text-sm">
+                Burger is the missing piece that makes
                 everyday complete, a simple yet delicious joy in life
             </p>
             <div className="flex gap-4 text-sm">

@@ -1,10 +1,11 @@
 import Image from "next/image"
+import MenuItem from "../menu/MenuItem"
 
 
 export default function HomeMenu() {
  return (
     <section className="">
-      <div className="absolute h-64 left-0 right-0 w-full
+      <div className="absolute left-0 right-0 w-full
       justify-start">
         <div className="h-48 w-48 absolute -left-20 -top-20 -z-10">
             <Image src={'/salad1.png'} layout={'fill'}
@@ -15,7 +16,7 @@ export default function HomeMenu() {
             objectFit={'contain'} alt={'salad'} />
             </div>
         </div>
-        <div className="text-center">
+        <div className="text-center mb-4">
             <h3 className="uppercase text-gray-500 font-semibold
             leading-4">
                 Check out
@@ -23,6 +24,16 @@ export default function HomeMenu() {
             <h2 className="text-primary font-bold text-4xl italic">
                 Menu
             </h2>
+        </div>
+        <div>
+            <div className="grid grid-cols-3 gap-4">
+                <MenuItem />
+                <MenuItem />
+                <MenuItem />
+                <MenuItem />
+                <MenuItem />
+                <MenuItem />
+            </div>
         </div>
     </section>
  )

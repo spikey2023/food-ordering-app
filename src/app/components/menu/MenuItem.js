@@ -10,11 +10,13 @@ export default function MenuItem() {
                 max-h-24 block mx-auto " alt="burger"/>
             </div>
             <h4 className="font-semibold text-xl my-3">
-                Deluxe Burger 
+            Signature Supreme Burger 
             </h4>
             <p className="text-gray-500 text-sm">
-                Delicious Deluxe burger ready to be devoured,
-                full of nutrients
+            A mouthwatering combination of Angus beef patty, 
+            smoked Gouda cheese, caramelized onions, crispy bacon, 
+            fresh lettuce, and our secret FlavorBurst sauce, 
+            all nestled in a toasted brioche bun.
             </p>
             <button className="mt-4 bg-primary
              text-white rounded-full px-8 py-2">

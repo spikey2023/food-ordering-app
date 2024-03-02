@@ -17,26 +17,33 @@ export default function Home() {
         <div className="text-gray-500 max-w-2xl mx-auto mt-4 flex
         flex-col gap-4">
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-         in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-         nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum
+        Welcome to FlavorBurst Burgers, where culinary excellence meets the 
+        joy of indulgence! At our burger haven, we are passionate about 
+        crafting an extraordinary dining experience for burger enthusiasts. 
+        Established with a commitment to quality and innovation, 
+        FlavorBurst Burgers is not just a restaurant; 
+        it's a celebration of flavors that dance on your taste buds.
         </p>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-         in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-         nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum
+        Our journey began with a simple belief – 
+        that a burger is more than just a meal; 
+        it's a canvas for creativity. Each burger on our menu is a carefully 
+        curated masterpiece, bringing together the finest ingredients and 
+        culinary expertise to deliver a symphony of tastes.
+         From the Signature Supreme Burger, an ode to classic indulgence,
+         to the Spicy Jalapeño Fiesta Burger, an adventurous exploration of 
+         heat and spice, we take pride in offering a diverse menu that caters 
+         to every palate.
         </p>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Beyond the delectable bites, FlavorBurst Burgers is also about 
+        fostering a sense of community. 
+        Our warm and inviting atmosphere welcomes friends and 
+        families to share memorable moments over delicious meals. 
+        We invite you to join us on this gastronomic journey, 
+        where passion for food meets exceptional service, 
+        and every bite tells a story. FlavorBurst Burgers – 
+        where burgers are not just a dish, but an experience worth savoring.
         </p>
         </div>
     </section>

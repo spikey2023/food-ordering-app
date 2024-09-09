@@ -3,16 +3,17 @@
 import Image from "next/image"
 import {useState} from "react"
 
-export default function RegistePage() {
-    const [email,setEmail] = useState('')
-    const [password,setPassword] = useState('')
-    function handleFormSubmit(ev){
+export default function RegisterPage() {
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    
+    async function handleFormSubmit(ev){
         ev.preventDefault()
         //send a requeust to the register route inside the api directory
-        fetch('/api/register', {
+        const response = await fetch('/api/register', {
             method: 'POST',
-            body:JSON.stringify({email, password}),
-            headers: {'Content-Type': 'application/json',},     
+            body: JSON.stringify({email, password}),
+            headers: {'Content-Type': 'application/json'},     
         } )
 
     }
